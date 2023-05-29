@@ -10,3 +10,16 @@ The dataset for this project is taken from UCSD Book Graph. The link for the dat
 
 This dataset contains 900000 book reviews from about 25,475 books and 18,892 users , which is a review subset for spoiler detection, where each book/user has at least one associated spoiler review. The ratings are from 1 to 5.
 
+# Modules used
+
+1. Numpy
+2. Pandas
+3. Sklearn 
+4. Tensorflow/Keras
+
+# Steps involved for the analysis 
+
+1. Loading and understanding the dataset.
+2. Preprocessing the text using sklearn.
+3. Selecting the target and features. In this case, our *target* is the **ratings** since we have to predict it and *feature* is the **reviews** column.
+4. Before making the predictive models, we split the whole data into train and test set.
