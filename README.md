@@ -10,7 +10,7 @@ The dataset for this project is taken from UCSD Book Graph. The link for the dat
 
 This dataset contains 900000 book reviews from about 25,475 books and 18,892 users , which is a review subset for spoiler detection, where each book/user has at least one associated spoiler review. The ratings are from 1 to 5.
 
-# Modules used
+# Main modules used
 
 1. Numpy
 2. Pandas
@@ -23,3 +23,12 @@ This dataset contains 900000 book reviews from about 25,475 books and 18,892 use
 2. Preprocessing the text using sklearn.
 3. Selecting the target and features. In this case, our *target* is the **ratings** since we have to predict it and *feature* is the **reviews** column.
 4. Before making the predictive models, we split the whole data into train and test set.
+
+# Type of models used
+
+1. Standard ML models
+2. Models made using 3NN architecture.
+3. Models made using deep NN.
+4. Models made using complex neural networks for text classification: LSTM, GRU, and BERT.
+
+Finally, comparison is made between the performance of each of models. In our case, we observed the highest accuracy for the model made using GRU.
